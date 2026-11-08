@@ -1,0 +1,2425 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03054968939806,
+                    49.2140784317513
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7835 Champlain Crescent",
+                "school_category": "Public School",
+                "school_name": "Champlain Heights Annex",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.03054968939806,
+                    "lat": 49.2140784317513
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08271031,
+                    49.2502130610676
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3877 Glen Drive",
+                "school_category": "Public School",
+                "school_name": "Charles Dickens Annex",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.08271031,
+                    "lat": 49.2502130610676
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09798144,
+                    49.2507533360676
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "315 E 23rd Av",
+                "school_category": "Public School",
+                "school_name": "David Livingstone Elementary",
+                "geo_local_area": "Riley Park",
+                "geo_point_2d": {
+                    "lon": -123.09798144,
+                    "lat": 49.2507533360676
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12579095999999,
+                    49.23963096106753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5025 Willow St",
+                "school_category": "Public School",
+                "school_name": "G F Strong School Program",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12579095999999,
+                    "lat": 49.23963096106753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.10063141,
+                    49.24121522106756
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4860 Main St",
+                "school_category": "Public School",
+                "school_name": "General Brock Elementary",
+                "geo_local_area": "Riley Park",
+                "geo_point_2d": {
+                    "lon": -123.10063141,
+                    "lat": 49.24121522106756
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06900705,
+                    49.249691952067586
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1750 E 22nd Av",
+                "school_category": "Public School",
+                "school_name": "Lord Selkirk Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.06900705,
+                    "lat": 49.249691952067586
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0557042,
+                    49.221596673067474
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6901 Elliott St",
+                "school_category": "Public School",
+                "school_name": "Sir Charles Kingsford-Smith",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.0557042,
+                    "lat": 49.221596673067474
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.13784476,
+                    49.28678528206777
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1100 Bidwell St",
+                "school_category": "Public School",
+                "school_name": "Lord Roberts Elementary",
+                "geo_local_area": "West End",
+                "geo_point_2d": {
+                    "lon": -123.13784476,
+                    "lat": 49.28678528206777
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07592057,
+                    49.261970549067655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1300 E Broadway",
+                "school_category": "Public School",
+                "school_name": "Queen Alexandra Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.07592057,
+                    "lat": 49.261970549067655
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15157081,
+                    49.23724621006754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5300 Maple St",
+                "school_category": "Public School",
+                "school_name": "Quilchena Elementary",
+                "geo_local_area": "Shaughnessy",
+                "geo_point_2d": {
+                    "lon": -123.15157081,
+                    "lat": 49.23724621006754
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.10819689943345,
+                    49.25717135541721
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "100 W 15th Av",
+                "school_category": "Public School",
+                "school_name": "Simon Fraser Elementary",
+                "geo_local_area": "Mount Pleasant",
+                "geo_point_2d": {
+                    "lon": -123.10819689943345,
+                    "lat": 49.25717135541721
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12504721,
+                    49.21776253406744
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7350 Laurel St",
+                "school_category": "Public School",
+                "school_name": "Sir Wilfrid Laurier Elementary",
+                "geo_local_area": "Marpole",
+                "geo_point_2d": {
+                    "lon": -123.12504721,
+                    "lat": 49.21776253406744
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06800394,
+                    49.2320557420675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1850 E 41st Av",
+                "school_category": "Public School",
+                "school_name": "Tecumseh Elementary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.06800394,
+                    "lat": 49.2320557420675
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.16460607,
+                    49.250178756067605
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4170 Trafalgar St",
+                "school_category": "Public School",
+                "school_name": "Trafalgar Elementary",
+                "geo_local_area": "Arbutus Ridge",
+                "geo_point_2d": {
+                    "lon": -123.16460607,
+                    "lat": 49.250178756067605
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07063159999998,
+                    49.220439256067465
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1755 E 55th Av",
+                "school_category": "Public School",
+                "school_name": "David Thompson Secondary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.07063159999998,
+                    "lat": 49.220439256067465
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12100426,
+                    49.22690693506749
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6350 Tisdall St",
+                "school_category": "Public School",
+                "school_name": "Dr Annie B Jamieson Elementary",
+                "geo_local_area": "Oakridge",
+                "geo_point_2d": {
+                    "lon": -123.12100426,
+                    "lat": 49.22690693506749
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12609640999999,
+                    49.2500416520676
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4070 Oak St",
+                "school_category": "Public School",
+                "school_name": "Emily Carr Elementary",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12609640999999,
+                    "lat": 49.2500416520676
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.13644517,
+                    49.28982415206781
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1755 Barclay St",
+                "school_category": "Public School",
+                "school_name": "King George Secondary",
+                "geo_local_area": "West End",
+                "geo_point_2d": {
+                    "lon": -123.13644517,
+                    "lat": 49.28982415206781
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.18024556263893,
+                    49.250581806373596
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3455 W King Edward Av",
+                "school_category": "Public School",
+                "school_name": "Lord Kitchener Elementary",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.18024556263893,
+                    "lat": 49.250581806373596
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14026052001878,
+                    49.26329988232251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1580 W Broadway",
+                "school_category": "Public School",
+                "school_name": "Peak House",
+                "geo_local_area": "Fairview",
+                "geo_point_2d": {
+                    "lon": -123.14026052001878,
+                    "lat": 49.26329988232251
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06634874,
+                    49.267187849067696
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1850 E 3rd Av",
+                "school_category": "Public School",
+                "school_name": "Queen Victoria Annex",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.06634874,
+                    "lat": 49.267187849067696
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03205805,
+                    49.25145777406758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3315 E 22nd Av",
+                "school_category": "Public School",
+                "school_name": "Renfrew Community Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.03205805,
+                    "lat": 49.25145777406758
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.10656921,
+                    49.23156648606752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5855 Ontario St",
+                "school_category": "Public School",
+                "school_name": "Sir Wm Van Horne Elementary",
+                "geo_local_area": "Oakridge",
+                "geo_point_2d": {
+                    "lon": -123.10656921,
+                    "lat": 49.23156648606752
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07382164,
+                    49.25356935406761
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3525 Dumphries St",
+                "school_category": "Public School",
+                "school_name": "Tyee Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.07382164,
+                    "lat": 49.25356935406761
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08434542,
+                    49.216109230067424
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1000 E 59th Av",
+                "school_category": "Public School",
+                "school_name": "Walter Moberly Elementary",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.08434542,
+                    "lat": 49.216109230067424
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.18233379,
+                    49.26648700606768
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2251 Collingwood St",
+                "school_category": "Public School",
+                "school_name": "Bayview Community Elementary",
+                "geo_local_area": "Kitsilano",
+                "geo_point_2d": {
+                    "lon": -123.18233379,
+                    "lat": 49.26648700606768
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14306239951357,
+                    49.251669525820965
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1690 Matthews Av",
+                "school_category": "Public School",
+                "school_name": "Canuck Place School Program",
+                "geo_local_area": "Shaughnessy",
+                "geo_point_2d": {
+                    "lon": -123.14306239951357,
+                    "lat": 49.251669525820965
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05058984,
+                    49.26788631306769
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2684 E 2nd Av",
+                "school_category": "Public School",
+                "school_name": "Chief Maquinna Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.05058984,
+                    "lat": 49.26788631306769
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.16358941,
+                    49.262654772067656
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2550 W 10th Av",
+                "school_category": "Public School",
+                "school_name": "Kitsilano Secondary",
+                "geo_local_area": "Kitsilano",
+                "geo_point_2d": {
+                    "lon": -123.16358941,
+                    "lat": 49.262654772067656
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15153798760876,
+                    49.22855386506042
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6360 Maple St",
+                "school_category": "Public School",
+                "school_name": "Magee Secondary",
+                "geo_local_area": "Kerrisdale",
+                "geo_point_2d": {
+                    "lon": -123.15153798760876,
+                    "lat": 49.22855386506042
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.096959,
+                    49.21445400406743
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "449 E 62nd Av",
+                "school_category": "Public School",
+                "school_name": "Pierre Elliott Trudeau Elementary",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.096959,
+                    "lat": 49.21445400406743
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05578593,
+                    49.22783722506748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6111 Elliott St",
+                "school_category": "Public School",
+                "school_name": "Waverley Elementary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.05578593,
+                    "lat": 49.22783722506748
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0646531767478,
+                    49.21604932869144
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2150 Brigadoon Av",
+                "school_category": "Public School",
+                "school_name": "Sir James Douglas Elementary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.0646531767478,
+                    "lat": 49.21604932869144
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.17355723856548,
+                    49.25658742134096
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3400 Balaclava St",
+                "school_category": "Public School",
+                "school_name": "Carnarvon Community Elementary",
+                "geo_local_area": "Arbutus Ridge",
+                "geo_point_2d": {
+                    "lon": -123.17355723856548,
+                    "lat": 49.25658742134096
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03951720287967,
+                    49.27964048422215
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "555 Lillooet St",
+                "school_category": "Public School",
+                "school_name": "Dr A R Lord Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.03951720287967,
+                    "lat": 49.27964048422215
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.19253813000002,
+                    49.25956780506763
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3050 Crown St",
+                "school_category": "Public School",
+                "school_name": "Ecole Jules Quesnel Elementary",
+                "geo_local_area": "West Point Grey",
+                "geo_point_2d": {
+                    "lon": -123.19253813000002,
+                    "lat": 49.25956780506763
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05745595,
+                    49.23673222606754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2330 E 37th Av",
+                "school_category": "Public School",
+                "school_name": "G T Cunningham Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.05745595,
+                    "lat": 49.23673222606754
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05269627000001,
+                    49.2521383750676
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3663 Penticton St",
+                "school_category": "Public School",
+                "school_name": "Lord Beaconsfield Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.05269627000001,
+                    "lat": 49.2521383750676
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07246012,
+                    49.24532077406758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4444 Dumfries St",
+                "school_category": "Public School",
+                "school_name": "Lord Selkirk Annex",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.07246012,
+                    "lat": 49.24532077406758
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.20112784000001,
+                    49.257791772067634
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4102 W 16th Av",
+                "school_category": "Public School",
+                "school_name": "Queen Elizabeth Elementary",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.20112784000001,
+                    "lat": 49.257791772067634
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14380998000001,
+                    49.24867607506759
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4250 Marguerite St",
+                "school_category": "Public School",
+                "school_name": "Shaughnessy Elementary",
+                "geo_local_area": "Shaughnessy",
+                "geo_point_2d": {
+                    "lon": -123.14380998000001,
+                    "lat": 49.24867607506759
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09480947999998,
+                    49.249753501067595
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "419 E 24th Av",
+                "school_category": "Public School",
+                "school_name": "Sir Charles Tupper Secondary",
+                "geo_local_area": "Riley Park",
+                "geo_point_2d": {
+                    "lon": -123.09480947999998,
+                    "lat": 49.249753501067595
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03187058558184,
+                    49.263648890401456
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2325 Cassiar St",
+                "school_category": "Public School",
+                "school_name": "Thunderbird Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.03187058558184,
+                    "lat": 49.263648890401456
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.11722884,
+                    49.25290710906762
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "500 W 20th Av",
+                "school_category": "Public School",
+                "school_name": "Edith Cavell Elementary",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.11722884,
+                    "lat": 49.25290710906762
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08804322,
+                    49.22104214306744
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "801 E 54th Av",
+                "school_category": "Public School",
+                "school_name": "John Henderson Annex",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.08804322,
+                    "lat": 49.22104214306744
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14937705,
+                    49.262518934067664
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1936 W 10th Av",
+                "school_category": "Public School",
+                "school_name": "Lord Tennyson Elementary",
+                "geo_local_area": "Kitsilano",
+                "geo_point_2d": {
+                    "lon": -123.14937705,
+                    "lat": 49.262518934067664
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.20112784000001,
+                    49.257791772067634
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4102 W 16th Av",
+                "school_category": "Public School",
+                "school_name": "Norma Rose Point School",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.20112784000001,
+                    "lat": 49.257791772067634
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14026052001878,
+                    49.26329988232251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1580 W Broadway",
+                "school_category": "Public School",
+                "school_name": "Vancouver Alternate",
+                "geo_local_area": "Fairview",
+                "geo_point_2d": {
+                    "lon": -123.14026052001878,
+                    "lat": 49.26329988232251
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.04440254,
+                    49.22957875906749
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2900 E 44th Av",
+                "school_category": "Public School",
+                "school_name": "Dr George M Weir Elementary",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.04440254,
+                    "lat": 49.22957875906749
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05057740868249,
+                    49.28261095988815
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2625 Franklin St",
+                "school_category": "Public School",
+                "school_name": "Hastings Community Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.05057740868249,
+                    "lat": 49.28261095988815
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09399954,
+                    49.26396573206767
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2300 Guelph St",
+                "school_category": "Public School",
+                "school_name": "Mount Pleasant Elementary",
+                "geo_local_area": "Mount Pleasant",
+                "geo_point_2d": {
+                    "lon": -123.09399954,
+                    "lat": 49.26396573206767
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07329351,
+                    49.214830464067425
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7668 Borden St",
+                "school_category": "Public School",
+                "school_name": "Sir James Douglas Annex",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.07329351,
+                    "lat": 49.214830464067425
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07657409,
+                    49.22574768906748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1401 E 49th Av",
+                "school_category": "Public School",
+                "school_name": "Sir Sandford Fleming Elementary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.07657409,
+                    "lat": 49.22574768906748
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0348073745407,
+                    49.242891620676865
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3323 Wellington Av",
+                "school_category": "Public School",
+                "school_name": "Sir Wilfred Grenfell Community",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.0348073745407,
+                    "lat": 49.242891620676865
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12579095999999,
+                    49.23963096106753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5025 Willow St",
+                "school_category": "Public School",
+                "school_name": "BC Childrens Hosp School Program",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12579095999999,
+                    "lat": 49.23963096106753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08239063270196,
+                    49.254854500002445
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1010 E 17th Av",
+                "school_category": "Public School",
+                "school_name": "Charles Dickens Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.08239063270196,
+                    "lat": 49.254854500002445
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15401133,
+                    49.21770658906743
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7455 Maple St",
+                "school_category": "Public School",
+                "school_name": "Dr R E McKechnie Elementary",
+                "geo_local_area": "Kerrisdale",
+                "geo_point_2d": {
+                    "lon": -123.15401133,
+                    "lat": 49.21770658906743
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12685921,
+                    49.26710311106769
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "900 School Green",
+                "school_category": "Public School",
+                "school_name": "False Creek Elementary",
+                "geo_local_area": "Fairview",
+                "geo_point_2d": {
+                    "lon": -123.12685921,
+                    "lat": 49.26710311106769
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05026876999999,
+                    49.27541639106772
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1025 Slocan St",
+                "school_category": "Public School",
+                "school_name": "Garibaldi Annex",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.05026876999999,
+                    "lat": 49.27541639106772
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.17067418,
+                    49.26597990206767
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2896 W 6th Av",
+                "school_category": "Public School",
+                "school_name": "General Gordon Elementary",
+                "geo_local_area": "Kitsilano",
+                "geo_point_2d": {
+                    "lon": -123.17067418,
+                    "lat": 49.26597990206767
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.10879442,
+                    49.21726779206743
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7455 Ontario St",
+                "school_category": "Public School",
+                "school_name": "J.W. Sexsmith Community Elementary",
+                "geo_local_area": "Marpole",
+                "geo_point_2d": {
+                    "lon": -123.10879442,
+                    "lat": 49.21726779206743
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09279776,
+                    49.23195715006752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "530 E 41st Av",
+                "school_category": "Public School",
+                "school_name": "John Oliver Secondary",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.09279776,
+                    "lat": 49.23195715006752
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.1925309529982,
+                    49.259566550086106
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3939 W 16th Av",
+                "school_category": "Public School",
+                "school_name": "Lord Byng Secondary",
+                "geo_local_area": "West Point Grey",
+                "geo_point_2d": {
+                    "lon": -123.1925309529982,
+                    "lat": 49.259566550086106
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05971209,
+                    49.27250773706771
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2235 Kitchener St",
+                "school_category": "Public School",
+                "school_name": "Lord Nelson Elementary",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.05971209,
+                    "lat": 49.27250773706771
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.032313,
+                    49.23634859906753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3417 Euclid Av",
+                "school_category": "Public School",
+                "school_name": "Prov. Early Intervention Resource Prg",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.032313,
+                    "lat": 49.23634859906753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.20479699,
+                    49.26785642206768
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2000 Trimble St",
+                "school_category": "Public School",
+                "school_name": "Queen Mary Elementary",
+                "geo_local_area": "West Point Grey",
+                "geo_point_2d": {
+                    "lon": -123.20479699,
+                    "lat": 49.26785642206768
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.02758566,
+                    49.28249619606777
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "250S Skeena St",
+                "school_category": "Public School",
+                "school_name": "Sir John Franklin Community",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.02758566,
+                    "lat": 49.28249619606777
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06069106000001,
+                    49.278439093067725
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "727 Templeton Drive",
+                "school_category": "Public School",
+                "school_name": "Templeton Secondary",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.06069106000001,
+                    "lat": 49.278439093067725
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05129983999998,
+                    49.260755475067654
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2600 E Broadway",
+                "school_category": "Public School",
+                "school_name": "Vancouver Technical Secondary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.05129983999998,
+                    "lat": 49.260755475067654
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05026876999999,
+                    49.27541639106772
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1025 Slocan St",
+                "school_category": "Public School",
+                "school_name": "SD 39 DL Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.05026876999999,
+                    "lat": 49.27541639106772
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12579095999999,
+                    49.23963096106753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5025 Willow St",
+                "school_category": "Public School",
+                "school_name": "BC Children's Adol. Psych. Unit",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12579095999999,
+                    "lat": 49.23963096106753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07192309841,
+                    49.27523599085204
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1001 Cotton Drive",
+                "school_category": "Public School",
+                "school_name": "Britannia Community Secondary",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.07192309841,
+                    "lat": 49.27523599085204
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03582905,
+                    49.219380799067466
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3340 E 54th Av",
+                "school_category": "Public School",
+                "school_name": "Captain James Cook Elementary",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.03582905,
+                    "lat": 49.219380799067466
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.032313,
+                    49.23634859906753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3417 Euclid Av",
+                "school_category": "Public School",
+                "school_name": "Collingwood Neighbourhood School",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.032313,
+                    "lat": 49.23634859906753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.122482,
+                    49.27223799906772
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "150 Drake St",
+                "school_category": "Public School",
+                "school_name": "Elsie Roy Elementary",
+                "geo_local_area": "Downtown",
+                "geo_point_2d": {
+                    "lon": -123.122482,
+                    "lat": 49.27223799906772
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.02567271,
+                    49.24206908706756
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3633 Tanner St",
+                "school_category": "Public School",
+                "school_name": "Graham Bruce Community Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.02567271,
+                    "lat": 49.24206908706756
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14935629,
+                    49.2722458780677
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1551 Cypress St",
+                "school_category": "Public School",
+                "school_name": "Henry Hudson Elementary",
+                "geo_local_area": "Kitsilano",
+                "geo_point_2d": {
+                    "lon": -123.14935629,
+                    "lat": 49.2722458780677
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09527169,
+                    49.222569588067465
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "451 E 53rd Av",
+                "school_category": "Public School",
+                "school_name": "John Henderson Elementary",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.09527169,
+                    "lat": 49.222569588067465
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0516408,
+                    49.24142469506758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4710 Slocan St",
+                "school_category": "Public School",
+                "school_name": "John Norquay Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.0516408,
+                    "lat": 49.24142469506758
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12980600999998,
+                    49.283091710067765
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1150 Nelson St",
+                "school_category": "Public School",
+                "school_name": "Lord Roberts Annex",
+                "geo_local_area": "West End",
+                "geo_point_2d": {
+                    "lon": -123.12980600999998,
+                    "lat": 49.283091710067765
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08671432,
+                    49.23453643506752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "960 E 39th Av",
+                "school_category": "Public School",
+                "school_name": "Sir Alexander Mackenzie Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.08671432,
+                    "lat": 49.23453643506752
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03760798,
+                    49.234347746067506
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3250 Kingsway",
+                "school_category": "Public School",
+                "school_name": "Sir Guy Carleton Community Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.03760798,
+                    "lat": 49.234347746067506
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07817551,
+                    49.244156609067566
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1300 E 29th Av",
+                "school_category": "Public School",
+                "school_name": "Sir Richard McBride Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.07817551,
+                    "lat": 49.244156609067566
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06467911,
+                    49.280723909067746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1950 E Hastings St",
+                "school_category": "Public School",
+                "school_name": "Sir William Macdonald Community",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.06467911,
+                    "lat": 49.280723909067746
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12561546,
+                    49.22105956806746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "7055 Heather St",
+                "school_category": "Public School",
+                "school_name": "Sir Winston Churchill Secondary",
+                "geo_local_area": "Oakridge",
+                "geo_point_2d": {
+                    "lon": -123.12561546,
+                    "lat": 49.22105956806746
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0371743,
+                    49.246512456067585
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3155 E 27th Av",
+                "school_category": "Public School",
+                "school_name": "Sunny Hill Hospital Program",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.0371743,
+                    "lat": 49.246512456067585
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.02774835,
+                    49.22064030106746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6955 Frontenac St",
+                "school_category": "Public School",
+                "school_name": "Champlain Heights Community Elementary",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.02774835,
+                    "lat": 49.22064030106746
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.14026052001878,
+                    49.26329988232251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1580 W Broadway",
+                "school_category": "Public School",
+                "school_name": "Continuing Ed SD 39",
+                "geo_local_area": "Fairview",
+                "geo_point_2d": {
+                    "lon": -123.14026052001878,
+                    "lat": 49.26329988232251
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.13634890999998,
+                    49.209962411067416
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "8370 Cartier St",
+                "school_category": "Public School",
+                "school_name": "David Lloyd George Elementary",
+                "geo_local_area": "Marpole",
+                "geo_point_2d": {
+                    "lon": -123.13634890999998,
+                    "lat": 49.209962411067416
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05829331021336,
+                    49.21331811031946
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2421 Scarboro Av",
+                "school_category": "Public School",
+                "school_name": "David Oppenheimer Elementary",
+                "geo_local_area": "Victoria-Fraserview",
+                "geo_point_2d": {
+                    "lon": -123.05829331021336,
+                    "lat": 49.21331811031946
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12579095999999,
+                    49.23963096106753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5025 Willow St",
+                "school_category": "Public School",
+                "school_name": "Eric Hamber Secondary",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12579095999999,
+                    "lat": 49.23963096106753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06163307000001,
+                    49.24761203506759
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4105 Gladstone St",
+                "school_category": "Public School",
+                "school_name": "Gladstone Secondary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.06163307000001,
+                    "lat": 49.24761203506759
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.177405,
+                    49.232867999067516
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3250 W 43rd Av",
+                "school_category": "Public School",
+                "school_name": "Kerrisdale Annex",
+                "geo_local_area": "Kerrisdale",
+                "geo_point_2d": {
+                    "lon": -123.177405,
+                    "lat": 49.232867999067516
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.13038640000002,
+                    49.25808403306762
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1166 W 14th Av",
+                "school_category": "Public School",
+                "school_name": "L'Ecole Bilingue Elementary",
+                "geo_local_area": "Fairview",
+                "geo_point_2d": {
+                    "lon": -123.13038640000002,
+                    "lat": 49.25808403306762
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.04294917,
+                    49.25359297006762
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3375 Nootka St",
+                "school_category": "Public School",
+                "school_name": "Nootka Community Elementary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.04294917,
+                    "lat": 49.25359297006762
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.19469107,
+                    49.24893677906758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4275 Crown St",
+                "school_category": "Public School",
+                "school_name": "Queen Elizabeth Annex",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.19469107,
+                    "lat": 49.24893677906758
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.03801003712412,
+                    49.27183079984159
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1430 Lillooet St",
+                "school_category": "Public School",
+                "school_name": "Sir Matthew Begbie Elementary",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.03801003712412,
+                    "lat": 49.27183079984159
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.11944529999998,
+                    49.210717995067405
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "590 W 65th Av",
+                "school_category": "Public School",
+                "school_name": "Sir Wilfrid Laurier Annex",
+                "geo_local_area": "Marpole",
+                "geo_point_2d": {
+                    "lon": -123.11944529999998,
+                    "lat": 49.210717995067405
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.13266216000001,
+                    49.23076242206749
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5970 Selkirk St",
+                "school_category": "Public School",
+                "school_name": "Sir William Osler Elementary",
+                "geo_local_area": "Oakridge",
+                "geo_point_2d": {
+                    "lon": -123.13266216000001,
+                    "lat": 49.23076242206749
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.19781516,
+                    49.23813758506754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5351 Camosun St",
+                "school_category": "Public School",
+                "school_name": "Southlands Elementary",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.19781516,
+                    "lat": 49.23813758506754
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0371743,
+                    49.246512456067585
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "3155 E 27th Av",
+                "school_category": "Public School",
+                "school_name": "Windermere Community Secondary",
+                "geo_local_area": "Renfrew-Collingwood",
+                "geo_point_2d": {
+                    "lon": -123.0371743,
+                    "lat": 49.246512456067585
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07137879542154,
+                    49.27451200859733
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1110 Cotton Drive",
+                "school_category": "Public School",
+                "school_name": "Britannia Community Elementary",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.07137879542154,
+                    "lat": 49.27451200859733
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.02935503511594,
+                    49.22799018553298
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6100 Battison St",
+                "school_category": "Public School",
+                "school_name": "Dr H N MacCorkindale Elementary",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.02935503511594,
+                    "lat": 49.22799018553298
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.0743697,
+                    49.266193169067684
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2055 Woodland Dr",
+                "school_category": "Public School",
+                "school_name": "Grandview Elementary",
+                "geo_local_area": "Grandview-Woodland",
+                "geo_point_2d": {
+                    "lon": -123.0743697,
+                    "lat": 49.266193169067684
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.06022338,
+                    49.26173570306765
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2500 Lakewood Drive",
+                "school_category": "Public School",
+                "school_name": "Laura Secord Elementary",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.06022338,
+                    "lat": 49.26173570306765
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15953565,
+                    49.24498305306758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2250 Eddington Drive",
+                "school_category": "Public School",
+                "school_name": "Prince of Wales Secondary",
+                "geo_local_area": "Arbutus Ridge",
+                "geo_point_2d": {
+                    "lon": -123.15953565,
+                    "lat": 49.24498305306758
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.05559853,
+                    49.28626345506777
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2450 Cambridge St",
+                "school_category": "Public School",
+                "school_name": "Tillicum Community Annex",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.05559853,
+                    "lat": 49.28626345506777
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08031429999998,
+                    49.27859426906773
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1130 Keefer St",
+                "school_category": "Public School",
+                "school_name": "Admiral Seymour Elementary",
+                "geo_local_area": "Strathcona",
+                "geo_point_2d": {
+                    "lon": -123.08031429999998,
+                    "lat": 49.27859426906773
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.12579095999999,
+                    49.23963096106753
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5025 Willow St",
+                "school_category": "Public School",
+                "school_name": "BCCH Eating Disorders School Program",
+                "geo_local_area": "South Cambie",
+                "geo_point_2d": {
+                    "lon": -123.12579095999999,
+                    "lat": 49.23963096106753
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.04511809000002,
+                    49.266421543067686
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2882 E 4th Av",
+                "school_category": "Public School",
+                "school_name": "Chief Maquinna Annex",
+                "geo_local_area": "Hastings-Sunrise",
+                "geo_point_2d": {
+                    "lon": -123.04511809000002,
+                    "lat": 49.266421543067686
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.106594,
+                    49.27863099906775
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "55 Expo Blvd",
+                "school_category": "Public School",
+                "school_name": "Crosstown Elementary",
+                "geo_local_area": "Downtown",
+                "geo_point_2d": {
+                    "lon": -123.106594,
+                    "lat": 49.27863099906775
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09371757,
+                    49.260059324067655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "2740 Guelph St",
+                "school_category": "Public School",
+                "school_name": "Florence Nightingale Elementary",
+                "geo_local_area": "Mount Pleasant",
+                "geo_point_2d": {
+                    "lon": -123.09371757,
+                    "lat": 49.260059324067655
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.10596494,
+                    49.247228706067595
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4251 Ontario St",
+                "school_category": "Public School",
+                "school_name": "General Wolfe Elementary",
+                "geo_local_area": "Riley Park",
+                "geo_point_2d": {
+                    "lon": -123.10596494,
+                    "lat": 49.247228706067595
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.17345921,
+                    49.23616824506754
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5555 Carnarvon St",
+                "school_category": "Public School",
+                "school_name": "Kerrisdale Elementary",
+                "geo_local_area": "Dunbar-Southlands",
+                "geo_point_2d": {
+                    "lon": -123.17345921,
+                    "lat": 49.23616824506754
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.04415722000002,
+                    49.22530010406748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6454 Killarney St",
+                "school_category": "Public School",
+                "school_name": "Killarney Secondary",
+                "geo_local_area": "Killarney",
+                "geo_point_2d": {
+                    "lon": -123.04415722000002,
+                    "lat": 49.22530010406748
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09147679242075,
+                    49.27981151466552
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "592 E Pender St",
+                "school_category": "Public School",
+                "school_name": "Lord Strathcona Community Elementary",
+                "geo_local_area": "Strathcona",
+                "geo_point_2d": {
+                    "lon": -123.09147679242075,
+                    "lat": 49.27981151466552
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15151486,
+                    49.22940869906749
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "6199 Cypress St",
+                "school_category": "Public School",
+                "school_name": "Maple Grove Elementary",
+                "geo_local_area": "Kerrisdale",
+                "geo_point_2d": {
+                    "lon": -123.15151486,
+                    "lat": 49.22940869906749
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.15343060436416,
+                    49.23728903611385
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "5350 East Boulevard",
+                "school_category": "Public School",
+                "school_name": "Point Grey Secondary",
+                "geo_local_area": "Shaughnessy",
+                "geo_point_2d": {
+                    "lon": -123.15343060436416,
+                    "lat": 49.23728903611385
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.08495018892324,
+                    49.241944229212045
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "4750 St. Catherines St",
+                "school_category": "Public School",
+                "school_name": "Sir Richard McBride Annex",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.08495018892324,
+                    "lat": 49.241944229212045
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.07309884,
+                    49.23711627206752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "1551 E 37th Av",
+                "school_category": "Public School",
+                "school_name": "Tecumseh Annex",
+                "geo_local_area": "Kensington-Cedar Cottage",
+                "geo_point_2d": {
+                    "lon": -123.07309884,
+                    "lat": 49.23711627206752
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    -123.09279776,
+                    49.23195715006752
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": "530 E 41st Av",
+                "school_category": "Public School",
+                "school_name": "Vancouver Learning Network",
+                "geo_local_area": "Sunset",
+                "geo_point_2d": {
+                    "lon": -123.09279776,
+                    "lat": 49.23195715006752
+                }
+            }
+        }
+    ]
+}
