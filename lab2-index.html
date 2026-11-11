@@ -13,7 +13,7 @@
 
   <body>
     <div id="mapid" style="width: 800px; height: 500px;"></div>
-    <div id="consoleOutput"></div>
+    <div id="consoleMessage"></div>
     <p>Type distance (m), then click a school: <input id="distanceInput" type="number" value="100"></p>
     <script type="module">
 
@@ -22,9 +22,9 @@
 
     console.log = function (...messages) {
     originalLog.apply(console, messages);
-    const output = document.getElementById('consoleOutput');
+    const Message = document.getElementById('consoleMessage');
 
-    output.textContent += messages.join(' ') + '\n';
+    Message.textContent += messages.join(' ') + '\n';
 };
       const map = new maplibregl.Map({
         container: 'mapid',                  
@@ -42,18 +42,37 @@
       const schoolMarkerPaint = {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
         'circle-color': '#e0781d',
+        'circle-opacity': 0.3
       };
       const skytrainMarkerPaint = {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
-        'circle-color': '#f4fc03'
+        'circle-color': '#04cc0e',
+        'circle-opacity': 0.3
       };
       const busMarkerPaint = {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
-        'circle-color': '#1d20e0'
+        'circle-color': '#1d20e0',
+        'circle-opacity': 0.3
       };
       const pointMarkerPaint = {
-        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 8, 17, 12],
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
         'circle-color': '#ac1e0f'
+      };
+      const skytrainWithinPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
+        'circle-color': '#04cc0e',
+      };
+      const busWithinPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
+        'circle-color': '#1d20e0',
+      };
+      const skytrainNearestPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
+        'circle-color': '#04cc0e',
+      };
+      const busNearestPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
+        'circle-color': '#1d20e0',
       };
 
       function onEachSchool(e) {
@@ -70,7 +89,7 @@
         const skytrainResponse = await fetch(skytrainStops);
         const skytrain_stops = await skytrainResponse.json();
 
-        const busResponse = await fetch(skytrainStops);
+        const busResponse = await fetch(busStops);
         const bus_stops = await busResponse.json();
 
         map.addSource('skytrainStops', {
@@ -129,34 +148,29 @@
         });
 
         const skytrain_within = turf.pointsWithinPolygon(skytrain_stops, buffered);
-        console.log(skytrain_within.features.length + ' skytrain stops inside the 100 m buffer |');
-        const bus_within = turf.pointsWithinPolygon(bus_stops, buffered);
-        console.log(bus_within.features.length + ' rapid or 99 stops inside the 100 m buffer |');
         map.addSource('skytrain_within', {
           type: 'geojson',
           data: skytrain_within
-        });
-        map.addSource('bus_within', {
-          type: 'geojson',
-          data: bus_within
         });
         map.addLayer({
           id: 'skytrain-within-circles',
           type: 'circle',
           source: 'skytrain_within',
-          paint: { 'circle-radius': 6,
-                   'circle-color': '#e66101' }
+          paint: skytrainWithinPointMarker
+        });
+        const bus_within = turf.pointsWithinPolygon(bus_stops, buffered);
+        map.addSource('bus_within', {
+          type: 'geojson',
+          data: bus_within
         });
         map.addLayer({
           id: 'bus-within-circles',
           type: 'circle',
           source: 'bus_within',
-          paint: { 'circle-radius': 6,
-                   'circle-color': '#e66101' }
+          paint: busWithinPointMarker
         });
 
         const nearest_skytrain = turf.nearestPoint(point, skytrain_stops, { units: 'meters' });
-        console.log('Nearest skytrain stop: ' + Math.round(nearest_skytrain.properties.distanceToPoint) + ' m away |');
         map.addSource('nearest_skytrain', {
           type: 'geojson',
           data: nearest_skytrain
@@ -165,11 +179,9 @@
           id: 'nearest-skytrain-circle',
           type: 'circle',
           source: 'nearest_skytrain',
-          paint: { 'circle-radius': 9,
-                   'circle-color': '#b2182b' }
+          paint: skytrainNearestPointMarker
         });
         const nearest_bus = turf.nearestPoint(point, bus_stops, { units: 'meters' });
-        console.log('Nearest bus stop: ' + Math.round(nearest_bus.properties.distanceToPoint) + ' m away |');
         map.addSource('nearest_bus', {
           type: 'geojson',
           data: nearest_bus
@@ -178,11 +190,10 @@
           id: 'nearest-bus-circle',
           type: 'circle',
           source: 'nearest_bus',
-          paint: { 'circle-radius': 9,
-                   'circle-color': '#b2182b' }
+          paint: busNearestPointMarker
         });
         
-        map.on('click', function (e) {document.getElementById('consoleOutput').textContent = '';
+        map.on('click', function (e) {document.getElementById('consoleMessage').textContent = '';
           const clicked = turf.point([e.lngLat.lng, e.lngLat.lat]);
           const distanceEntry = document.getElementById('distanceInput');
           const distance = Number(distanceEntry.value);
@@ -203,7 +214,7 @@
           map.getSource('nearest_skytrain').setData(clickedNearestSkytrain)
 
           const clickedWithinBus = turf.pointsWithinPolygon(bus_stops, clickedBuffer);
-          console.log(clickedWithinBus.features.length + ' bus stops inside the ' + distance + ' m buffer |');
+          console.log(clickedWithinBus.features.length + ' rapid or 99 bus stops inside the ' + distance + ' m buffer |');
           map.getSource('bus_within').setData(clickedWithinBus);
 
           const clickedNearestBus = turf.nearestPoint(clicked, bus_stops, { units: 'meters' });
