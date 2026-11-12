@@ -32,3 +32,4 @@ This is the legend I created in p5.js.
 
 ### Critique
 
+This map could have been improved to include to provide the names on the map of key skytrain and bus stations when within the buffer. I actually tried to do this but I was not able to. I created a function that would indicate the name of the skytrain station when it was clicked, but it never actually appeared. This feature would have provided the user with an easy way to see what skytrain station their child would go t0 while on route to school. 
