@@ -66,6 +66,10 @@
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
         'circle-color': '#1d20e0',
       };
+      const schoolsWithinPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
+        'circle-color': '#e0781d',
+      };
       const skytrainNearestPointMarker = {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
         'circle-color': '#04cc0e',
@@ -74,16 +78,10 @@
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
         'circle-color': '#1d20e0',
       };
-
-      function onEachSchool(e) {
-        const school = e.features[0].properties;
-        if (school.school_name) {
-          const popup = new maplibregl.Popup();
-          popup.setLngLat(e.lngLat);
-          popup.setText(school.school_name);
-          popup.addTo(map);
-        }
-      }
+      const schoolNearestPointMarker = {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
+        'circle-color': '#e0781d',
+      };
       
       map.on('load', async function () {
         const skytrainResponse = await fetch(skytrainStops);
@@ -91,6 +89,9 @@
 
         const busResponse = await fetch(busStops);
         const bus_stops = await busResponse.json();
+
+        const schoolResponse = await fetch(publicSchools);
+        const schools = await schoolResponse.json();
 
         map.addSource('skytrainStops', {
           type: 'geojson',
@@ -112,10 +113,9 @@
           source: 'busStops',
           paint: busMarkerPaint
         });
-        map.on('click', 'publicSchools', onEachSchool);
         map.addSource('publicSchools', {
           type: 'geojson',
-          data: publicSchools,
+          data: publicSchools
         });
         map.addLayer({
           id: 'school-circles',
@@ -134,6 +134,7 @@
           source: 'point',
           paint: pointMarkerPaint
         });
+
         const buffered = turf.buffer(point, 100, { units: 'meters' });
         map.addSource('buffered', {
           type: 'geojson',
@@ -169,6 +170,17 @@
           source: 'bus_within',
           paint: busWithinPointMarker
         });
+        const schools_within = turf.pointsWithinPolygon(schools, buffered);
+        map.addSource('schools_within', {
+          type: 'geojson',
+          data: schools_within
+        });
+        map.addLayer({
+          id: 'schools-within-circles',
+          type: 'circle',
+          source: 'schools_within',
+          paint: schoolsWithinPointMarker
+        });
 
         const nearest_skytrain = turf.nearestPoint(point, skytrain_stops, { units: 'meters' });
         map.addSource('nearest_skytrain', {
@@ -192,6 +204,17 @@
           source: 'nearest_bus',
           paint: busNearestPointMarker
         });
+        const nearest_school = turf.nearestPoint(point, schools, { units: 'meters' });
+        map.addSource('nearest_school', {
+          type: 'geojson',
+          data: nearest_school
+        });
+        map.addLayer({
+          id: 'nearest-school-circle',
+          type: 'circle',
+          source: 'nearest_school',
+          paint: schoolNearestPointMarker
+        });
         
         map.on('click', function (e) {document.getElementById('consoleMessage').textContent = '';
           const clicked = turf.point([e.lngLat.lng, e.lngLat.lat]);
@@ -199,7 +222,7 @@
           const distance = Number(distanceEntry.value);
           if (distance <= 0) {
             console.log('Type a distance above 0 metres, then click the map again.');
-            return;
+            return; 
           }
           const clickedBuffer = turf.buffer(clicked, distance, { units: 'meters' });
           map.getSource('point').setData(clicked);
@@ -211,15 +234,23 @@
 
           const clickedNearestSkytrain = turf.nearestPoint(clicked, skytrain_stops, { units: 'meters' });
           console.log('Nearest skytrain stop: '  + Math.round(clickedNearestSkytrain.properties.distanceToPoint) + ' m away |');
-          map.getSource('nearest_skytrain').setData(clickedNearestSkytrain)
+          map.getSource('nearest_skytrain').setData(clickedNearestSkytrain);
 
           const clickedWithinBus = turf.pointsWithinPolygon(bus_stops, clickedBuffer);
-          console.log(clickedWithinBus.features.length + ' rapid or 99 bus stops inside the ' + distance + ' m buffer |');
+          console.log(clickedWithinBus.features.length + ' rapid or 99 bus stops pairs inside the ' + distance + ' m buffer |');
           map.getSource('bus_within').setData(clickedWithinBus);
 
           const clickedNearestBus = turf.nearestPoint(clicked, bus_stops, { units: 'meters' });
-          console.log('Nearest bus stop: '  + Math.round(clickedNearestBus.properties.distanceToPoint) + ' m away |');
-          map.getSource('nearest_bus').setData(clickedNearestBus)
+          console.log('Nearest bus stop pair: '  + Math.round(clickedNearestBus.properties.distanceToPoint) + ' m away |');
+          map.getSource('nearest_bus').setData(clickedNearestBus);
+
+          const clickedWithinSchool = turf.pointsWithinPolygon(schools, clickedBuffer);
+          console.log(clickedWithinSchool.features.length + ' schools inside the ' + distance + ' m buffer |');
+          map.getSource('schools_within').setData(clickedWithinSchool);
+
+          const clickedNearestSchool = turf.nearestPoint(clicked, schools, { units: 'meters' });
+          console.log('Nearest school: ' + clickedNearestSchool.properties.school_name + ', ' + Math.round(clickedNearestSchool.properties.distanceToPoint) + ' m away |');
+          map.getSource('nearest_school').setData(clickedNearestSchool);
         });
 });
     </script>
