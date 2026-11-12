@@ -33,7 +33,7 @@ Here is the area of interest:
 
 <img width="335" height="303" alt="image" src="https://babooneatbanana.github.io/lab2/AreaOfInterest.png" />
 
-This sight was particularly interesting because it showed how Olympic village, despite being well connected to transit, has poor access to public schools, with there only being one public school within 1km. A similar pattern was common where transit accessibility and population density did not always correlate with there being lots of schools. 
+This sight was particularly interesting because it showed how Olympic village, despite being well connected to transit, has poor access to public schools, with there only being one public school within 1km. A similar pattern was common where transit accessibility and population density did not always correlate with there being lots of schools. Insight like this could be useful for parents it forces them to recognize that sometimes schools will not be near good public transportation. 
 
 
 ### Critique
