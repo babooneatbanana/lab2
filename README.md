@@ -29,6 +29,10 @@ This is the legend I created in p5.js.
 
 ### Area of Interest
 
+Here is the area of interest:
+
+This sight was particularly interesting because it showed how Olympic village, despite being well connected to transit, has poor access to public schools, with there only being one public school within 1km. A similar pattern was common where transit accessibility and population density did not always correlate with there being lots of schools. 
+
 
 ### Critique
 
