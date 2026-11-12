@@ -20,4 +20,11 @@ The results of the nearest points and points within the buffer are transferred t
 
 ### Learning process
 
-This lab largely drew from coding and cartographic techniques learned in class like buffer, point, nearest point. This used turf.js. Almost no AI was used. I did ask google how to display the console on the screen. 
+This lab largely drew from coding and cartographic techniques learned in class like buffer, point, nearest point. This used turf.js. I also looked up in a few websites and forum different methods I could use to display the console on the screen. This led me to few websites and forums that showed various methods for display information in html. In total, I spent roughly ten hours on this lab, making constant gradually changes to the display methods. 
+
+There is one big thing I tried to do but failed at doing. That was creating a legend. I made a simply sketch in p5.js and tried to display it over the map window but I could not find a way to prevent it from going below the map. 
+https://babooneatbanana.github.io/lab2/legend.png
+
+
+### Critique
+
