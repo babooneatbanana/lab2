@@ -24,7 +24,7 @@ This lab largely drew from coding and cartographic techniques learned in class l
 
 There is one big thing I tried to do but failed at doing. That was creating a legend. I made a simply sketch in p5.js and tried to display it over the map window but I could not find a way to prevent it from going below the map. 
 This is the legend I created in p5.js.
-<img width="718" height="591" alt="image" src="https://babooneatbanana.github.io/lab2/legend.png" />
+<img width="120" height="116" alt="image" src="https://babooneatbanana.github.io/lab2/legend.png" />
 
 ### Area of Interest
 
