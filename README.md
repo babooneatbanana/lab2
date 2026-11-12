@@ -12,4 +12,12 @@ This map uses three datasets. The first contains the location public schools in 
 
 The base map is stylized as OpenStreetMap positron. This provides lots of information for users and allows them to easily locate their home. However, it does not stand out too much and remains in the background. 
 
-I chose to stylize the points when initially loaded on the screen with low opacity because before the user as selected a location, no point is particularly important.  
+I chose to stylize the points when initially loaded on the screen with low opacity because before the user as selected a location, no point is particularly important. Public schools were stylized as an orangey brown. Bus stops and skytrain stops were stylized as green and blue because these seem fitting for the sustainable vibe of public transportation. 
+
+To indicate importance, nearest points and points within the buffer receive full opacity. Nearest points also receive a larger circle radius. Indicating importance this way shows which publics and transit stops should be of note for the user given the location they have selected. 
+
+The results of the nearest points and points within the buffer are transferred to the console and then displayed on the html page so that a user can see the output. 
+
+### Learning process
+
+This lab largely drew from coding and cartographic techniques learned in class like buffer, point, nearest point. This used turf.js. Almost no AI was used. I did ask google how to display the console on the screen. 
