@@ -22,10 +22,14 @@ The results of the nearest points and points within the buffer are transferred t
 
 This lab largely drew from coding and cartographic techniques learned in class like buffer, point, nearest point. This used turf.js. I also looked up in a few websites and forum different methods I could use to display the console on the screen. This led me to few websites and forums that showed various methods for display information in html. In total, I spent roughly ten hours on this lab, making constant gradually changes to the display methods. 
 
-There is one big thing I tried to do but failed at doing. That was creating a legend. I made a simply sketch in p5.js and tried to display it over the map window but I could not find a way to prevent it from going below the map. 
+There is two big thing I tried to do but failed at doing. That was creating a legend. I made a simply sketch in p5.js and tried to display it over the map window but I could not find a way to prevent it from going below the map. 
 This is the legend I created in p5.js.
 
 <img width="120" height="116" alt="image" src="https://babooneatbanana.github.io/lab2/legend.png" />
+
+The second thing I tried was to have none of the nearest or within paints operate when the map is initially loaded. Currently, since an initial point is set, the map performs the nearest and within functions right away. However, I only want this to map once the use actually creates a point. I tried to set the the point the follow only the event click but it did not work. I did not spend a lot of time trying to fix this because it did not really affect the communication of the map. 
+
+I also had one issue I was never able to debug. When the map initially loads the nearest school is given the paint that should only apply to schools within the buffer. Yet, once I click a different point on the map, it still displays the same way. Everything else works as intended so this issue confused me. I have read over my code so many times, checked all variables, and tried to work through why this is happening. But I am stumped. 
 
 ### Area of Interest
 
