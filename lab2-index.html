@@ -12,12 +12,16 @@
   </head>
 
   <body>
+    <!--container for the map-->
     <div id="mapid" style="width: 800px; height: 500px;"></div>
+    <!--element for displaying console messages-->
     <div id="consoleMessage"></div>
+    <!--input text for element-->
     <p>Type distance (m), then click a school: <input id="distanceInput" type="number" value="100"></p>
     <script type="module">
 
       import * as maplibregl from 'https://cdn.jsdelivr.net/npm/maplibre-gl@6.15.0/dist/maplibre-gl.mjs';
+    // function for displaying the console element into the html eleement
       const originalLog = console.log;
 
     console.log = function (...messages) {
@@ -35,10 +39,12 @@
       
       window.map = map;
 
+// three datasets, busStops was created in geojson.io
       const skytrainStops = 'https://babooneatbanana.github.io/lab2/rapid-transit-stations.geojson';
       const publicSchools = 'https://babooneatbanana.github.io/lab2/public-schools.geojson';
       const busStops = 'https://babooneatbanana.github.io/lab2/99-r4-r5-stops.geojson';
 
+// 9 paint settings for different stylizations of points
       const schoolMarkerPaint = {
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 4, 17, 8],
         'circle-color': '#e0781d',
@@ -82,7 +88,7 @@
         'circle-radius': ['interpolate', ['linear'], ['zoom'], 11, 6, 17, 10],
         'circle-color': '#e0781d',
       };
-      
+
       map.on('load', async function () {
         const skytrainResponse = await fetch(skytrainStops);
         const skytrain_stops = await skytrainResponse.json();
@@ -93,6 +99,7 @@
         const schoolResponse = await fetch(publicSchools);
         const schools = await schoolResponse.json();
 
+        //loading 3 base datasets onto the screen
         map.addSource('skytrainStops', {
           type: 'geojson',
           data: skytrainStops
@@ -123,6 +130,8 @@
           source: 'publicSchools',
           paint: schoolMarkerPaint
         });
+
+        //creating a point 
         const point = turf.point([-123.11, 49.25]);
         map.addSource('point', {
           type: 'geojson',
@@ -134,7 +143,7 @@
           source: 'point',
           paint: pointMarkerPaint
         });
-
+        //buffer
         const buffered = turf.buffer(point, 100, { units: 'meters' });
         map.addSource('buffered', {
           type: 'geojson',
@@ -146,8 +155,10 @@
           source: 'buffered',
           paint: { 'fill-color': '#ac1e0f',
 'fill-opacity': 0.2 }
+          // the only paint to stylized with a specific variable
         });
 
+        //within calculation for the 3 datasets
         const skytrain_within = turf.pointsWithinPolygon(skytrain_stops, buffered);
         map.addSource('skytrain_within', {
           type: 'geojson',
@@ -182,6 +193,7 @@
           paint: schoolsWithinPointMarker
         });
 
+        // nearest calculation for the 3 datasets
         const nearest_skytrain = turf.nearestPoint(point, skytrain_stops, { units: 'meters' });
         map.addSource('nearest_skytrain', {
           type: 'geojson',
@@ -216,6 +228,7 @@
           paint: schoolNearestPointMarker
         });
         
+        //creating changes after the event 'click'
         map.on('click', function (e) {document.getElementById('consoleMessage').textContent = '';
           const clicked = turf.point([e.lngLat.lng, e.lngLat.lat]);
           const distanceEntry = document.getElementById('distanceInput');
