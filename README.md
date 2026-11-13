@@ -16,7 +16,7 @@ I chose to stylize the points when initially loaded on the screen with low opaci
 
 To indicate importance, nearest points and points within the buffer receive full opacity. Nearest points also receive a larger circle radius. Indicating importance this way shows which publics and transit stops should be of note for the user given the location they have selected. 
 
-The results of the nearest points and points within the buffer are transferred to the console and then displayed on the html page so that a user can see the output. 
+The results of the nearest points and points within the buffer are transferred to the console and then displayed on the html page so that a user can see the output. This process is done for schools, buses, and skytrains. Additionally, the name of the nearest school is also provided for every click. This ensures the a user actually knows the potential school they are interested in. 
 
 ### Learning process
 
